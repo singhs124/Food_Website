@@ -1,0 +1,126 @@
+.wrapper{ 
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+.text-center{
+    text-align: center;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+.margin-bottom{
+    margin-bottom: 3%;
+}
+
+/* Navbar  */
+.navbar{
+    border-bottom: 1px solid grey;
+}
+
+.navbar li{
+    display: inline;
+    list-style: none;
+}
+.navbar li a{
+    font-weight: bold;
+    text-decoration: none;
+    color:  #ff6b81;
+    padding: 10px;
+}
+.navbar li a:hover{
+    color: #ff4757;
+}
+
+/* Main-content */
+.main-content{
+    background-color: #e0e3f3;
+}
+.col-4{
+    background-color: white;
+    padding: 2%;
+    margin: 1%;
+    width: 15%;
+    float: left;
+}
+
+
+/* Table  */
+.tbl-full{
+    width: 100%;
+    margin-top: 2%;
+}
+
+.tbl-30{
+    width: 30%;
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td{
+    padding: 1%;
+}
+
+.btn-primary{
+    background-color: #1e90ff;
+    text-decoration: none;
+    color: white;
+    padding: 1%;
+    border-radius: 10px 1px 10px 10px;
+}
+.btn-primary:hover{
+    background-color: #3742fa;
+    transition: 1s ;
+}
+.btn-secondary{
+    margin-right:2% ;
+    background-color: #7bed9f;
+    text-decoration: none;
+    color: black;
+    padding: 1%;
+    border-radius: 10px 10px 10px 10px;
+}
+.btn-secondary:hover{
+    background-color: #0e9b49;
+    transition: 1s ;
+}
+.btn-danger{
+    background-color: #ff6b81;
+    text-decoration: none;
+    color: white;
+    padding: 1%;
+    border-radius: 10px 10px 10px 10px;
+}
+.btn-danger:hover{
+    background-color: #ff4757;
+    transition: 1s ;
+}
+
+.success{
+    color: #2ed573;
+}
+.error{
+    color: #ff4757;
+}
+
+/* Footer  */
+
+.footer{
+    background-color: #ff4757;
+    color: white;
+    font-weight: bold;
+}
+
+/* login  */
+.login{
+    border: 1px solid black;
+    width: 20%;
+    margin: 10% auto;
+    padding: 2% 2%;
+}
